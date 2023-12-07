@@ -40,30 +40,12 @@ if(idade >= 18){
 
 //  Crie uma condição que exiba uma mensagem no console se você fizer aniversário em Agosto OU Dezembro OU JUNHO. Caso seja verdadeira a informação, retorne essa mensagem: Uma ou mais opções estão corretas. O mês escolhido foi o mês tal. Caso a informação seja falsa, retorne a seguinte mensagem:  Algo de errado não está certo, o mês digitado foi o mês tal.
 
-let mesDeAniversario = "agosto"
-if(mesDeAniversario == "agosto") {
-    console.log("miaum")
-} else if (animal2 == "papagaio") {
-    console.log(" olá")
-} else if (animal2 == "pato") {
-    console.log("quaqua")
+let MesdeAniversario = "Dezembro"
+
+if (MesdeAniversario === "Agosto" || MesdeAniversario === "Dezembro" || MesdeAniversario === "Junho") {
+    console.log(`Uma ou mais opções estão corretas. O mês escolhido foi ${MesdeAniversario}.`);
 } else {
-    console.log ("não adivinhou")
+    console.log(`Algo de errado não está certo. O mês digitado foi ${MesdeAniversario}.`);
+
+
 }
-
-
-
-
-
-    // /*let _contador = 0
-    // while(_contador <100){
-    //     contador += 10 /* posso adicionar quanto eu quiser aqui. para mostrar numeros pares podia add 2 */
-    //     // console.log(_contador)}
-
-    //     let contandoPares = 0
-
-    //     while(contandoPares < 50){
-    //         contandoPares += 2
-    //         console.log(contandoPares)
-
-    //    }
